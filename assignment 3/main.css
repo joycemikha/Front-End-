@@ -1,0 +1,137 @@
+.section-one {
+  background-image: url('images/drew-coffman-1872.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  color: beige;
+  padding-bottom: 250px;
+  padding-top: 250px;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.section-two img {
+    width:100%;
+}
+
+.img-two {
+    display: inline-block;
+    width:40%;
+    padding-top: 50px;
+    padding-left: 50px;   
+
+}
+
+ .two{
+    display:inline-block;
+    padding-left: 5%;
+    padding-top: 5%;
+    width: 40%;
+    vertical-align: top;
+
+ }
+
+ .leaf img , .people img , .heart img ,.check img {
+    width: 7%; 
+ }
+ .maps img ,.email img, .phone img, .headphone img{
+   width: 7%; 
+   background-color:sienna;
+   float: left;
+}
+
+ .leaf-text , .people-text , .heart-text , .check-text{
+   display: inline-block;
+ }
+ .clear-fix{
+   clear: both;
+}
+.three-img{ 
+   display: inline-block;
+   width: 40%;
+   padding-left: 10%;
+   padding-bottom: 5%;
+   padding-top: 5%;
+}
+.three-text {
+   display: inline-block;
+   width: 40%;
+   padding-left: 5%;
+   
+}
+.section-three{
+
+vertical-align: middle;
+}
+ .five-img{ 
+   float: right;
+   width: 40%;
+   margin: 5% 5%;
+}
+ .five-text{
+   float: left;
+   margin-top: 16%;
+   margin-left:5%;
+   width: 35%;
+   vertical-align: middle; 
+}
+.section-three img ,.section-six img {
+   width: 100%;
+}
+.section-four{
+   text-align: center;
+}
+.four-part1 , .four-part2 , .four-part3 {
+   width: 27%;
+   margin-top: 3%;
+   margin-left:5%;
+   float: left;
+}
+.four-part1 img ,.four-part2 img , .four-part3 img{
+   width: 100%;
+   padding-bottom: 6%;
+}
+.six-pic1,.six-pic2,.six-pic3,.six-pic4,.arrow{
+width:5%;
+float:left;
+}
+.section-six {
+   float:left;
+}
+.parent-table{
+   background-color: #4D5656 ;
+   color: aliceblue;
+   padding-left: 1%;
+   padding-bottom: 2%;
+   padding-top: 2%;
+}
+th{
+text-align: left;
+padding-bottom: 2%;
+padding-left: 2%;
+}
+td{
+   padding-left: 2%;
+   padding-bottom: 4%;
+   color: #C0C0C0;
+}
+.child{
+   background-image: url('images/contact-details-map.png');
+   background-repeat: no-repeat;
+   background-color:#4D5656 ;
+   color: aliceblue;
+}
+.section-seven{
+   background-color: #424949;
+   color:aliceblue;
+   text-align: center;
+}
+.seven-pics img{
+   width:3%;
+   padding-bottom: 4%;
+}
+.section-seven img{
+   padding-top: 2%;
+   
+}
