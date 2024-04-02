@@ -1,0 +1,485 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: "Open Sans", system-ui, "-apple-system", "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+  }
+  nav{
+    position: fixed;
+    z-index: 10;
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    font-family: "Open Sans", system-ui, "-apple-system", "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  label.logo{
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 5%;
+  }
+  nav ul a:hover{
+    color: black;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    
+    color: rgb(132,132,148);
+    font-family: "Open Sans", system-ui, "-apple-system", "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  a.active,a:hover{
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  .dark{
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 50px;
+    cursor: pointer;
+  }
+
+  .section-one{
+    background-color: rgb(238,238,238);
+  }
+   .section-one img{
+    width: 85%;
+   }
+  .section-one-pic{
+     display: flex;
+     padding-top: 18%;
+     justify-content: center;
+     align-items: center;
+    filter: drop-shadow(4px 4px 9px #000a);
+  }
+  .logo::after{
+    content: ".";
+    color:rgb(206,18,18) ;
+  }
+  .section-one-pic:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+.section-one-text h2{
+    font-size:xx-large;
+    color:rgb(55,55,63);
+    font-family: cursive ;
+    display: flex;
+    justify-content: center;
+    padding: 7% 0%;
+    text-decoration: none solid rgb(55, 55, 63) ;
+}
+.section-one-text p{
+    color:rgb(79,79,90);
+    font-family:  "Amatic SC", sans-serif;
+    text-align: center;
+    padding:  0 6%;
+}
+ .section-one button , .contact button
+ {
+    border-radius: 50px 50px 50px 50px;
+    padding:  2% 6%;
+    display: flex;
+    background-color:rgb(206,18,18) ;
+    color: white;
+    border-style: none ;
+    margin-left: -20%;
+}
+
+ button:hover
+ {
+    background-color:rgb(250,18,18) ;
+}
+.clear-fix{
+    clear: both;
+  }
+  .icon {
+    margin: 7px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+  }
+  .icon i{
+    margin: 7px;
+  }
+  
+  .video-btn:hover{
+     color: rgb(250,18,18) ;
+  }
+
+   .video-btn{
+     display: flex;
+     align-items: center;
+     justify-content: start;
+     color: black ;
+     background-image: linear-gradient(to right,  rgb(250,18,18) 0 50%, transparent 0% 100%);
+     border-radius: 50%;
+     width: 7%;
+     margin-left: 5%;
+  }
+  .section-one-text span{
+    background-color: transparent;
+    position: absolute;
+    left: 57%;
+  }
+
+  .section-one-text a p:hover{
+    color: rgb(250,18,18) ;
+  }
+  .btn-group{
+    padding: 4%  0%;
+     display: flex;
+     justify-content:center;
+     align-items: center;
+  }
+
+  .chefs{
+        overflow: hidden;
+        padding-block: 1.25rem;
+    
+    
+    }
+
+  .chefs h2 , .gallery h2 , .contact h2{
+    color:rgb(55,55,63);
+    font-family:  Cursive;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-decoration: none solid rgb(55, 55, 63) ;  
+}
+.chefs .p {
+    color:rgb(212,45,45);
+    padding: 0% 1%;
+}
+
+.chefs p {
+    color:rgb(55,55,63);
+    display: block;
+    text-align: center;
+    text-decoration: none solid rgb(55, 55, 63) ;
+    padding: 3% 0%;
+    font-style:italic;
+}
+.chefs span  {
+   color: rgb(127,141,180);
+    display: block;
+    text-align: center;
+    text-decoration: none solid rgb(55, 55, 63) ;
+    padding: 3% 0%;
+}
+.chefs img{
+    width: 100%;
+    border-radius: 2% 2% 0% 0%;
+}
+.chefs h3{
+    text-align: center;
+}
+.chef-one ,.chef-two, .chef-three{
+    width: 80%;
+    margin-top: 5%;
+    border: solid 1px gray;
+    border-radius: 3% 3% 0% 0%;
+    box-shadow: 2px 2px 2px 2px #888888;
+    position: relative;
+    overflow: hidden;
+}
+.chef-one:hover, .chef-two:hover,.chef-three:hover{
+    transform: scale(1.04);
+}
+
+.hover-pic{
+    background: rgba(215, 210, 210, 0.57) ;
+    height:40%;
+    position: absolute;
+    top: 5%;
+    left:100%;
+    width: 10%;
+    z-index: 5;
+    transition: cubic-bezier(0.075, 0.82, 0.05, 1);
+    transition-duration: 1s;
+  }
+  .chef-one:hover .hover-pic, .chef-two:hover .hover-pic,.chef-three:hover .hover-pic{
+    top: 5%;;
+    left:85%;
+  }
+  .social-icons{
+     position: relative;
+      padding: 15px 10px 0px 5px;
+      transition: cubic-bezier(255, 255, 255, 255, .8);
+      z-index: 15;
+      width:10%;
+      color: #888888;
+  }
+   .gallery p {
+    color: rgb(127,141,180);
+     display: block;
+     text-align: center;
+     width: 100%;
+     text-decoration: none solid rgb(55, 55, 63) ;
+     padding: 3% 0%;
+    }
+    .gallery .p , .contact .p {
+        color:rgb(212,45,45);
+        padding: 0% 1%;
+    }
+    .gallery{
+        
+        background-color: rgb(238,238,238); 
+      }
+      .gallery img {
+        width: 80%;
+        border: solid 3px white ;
+      }
+      .meal-1 , .meal-2 , .meal-3 , .meal-4 , .meal-5, .meal-6 , .meal-7{
+        padding:  2% 0%; 
+        display: flex;
+        justify-content: center;       
+        position: relative;
+        overflow: hidden;
+        z-index: 2;
+      }
+      .meal-hover{
+        text-align: center;
+        background: rgba(0, 0, 0, 0.57) ;
+        height:90%;
+        position: absolute;
+        top: 100%;
+        width: 80%;
+        z-index: 5;
+        transition: cubic-bezier(0.075, 0.82, 0.05, 1);
+        transition-duration: 1s;
+      }
+      .meal-hover h2{
+        padding-top: 25%;
+        color: white;
+      }
+      .meal-hover p{
+        
+        color: white;
+      }
+    
+      .meal-1:hover .meal-hover , .meal-2:hover .meal-hover , .meal-3:hover .meal-hover , .meal-4:hover .meal-hover , .meal-5:hover .meal-hover , .meal-6:hover .meal-hover , .meal-7:hover .meal-hover {
+        top: 5%;
+      }
+
+      .contact img{
+        width: 80%;
+        border: solid 3px white ;
+      }
+   .contact button
+    {
+    border-radius: 50px 50px 50px 50px;
+    padding:  2% 6%;
+    display: flex;
+    background-color:rgb(206,18,18) ;
+    color: white;
+    border-style: none ;
+    }
+    .contact-pic{
+        display: flex;
+        justify-content: center;
+      }
+      .contact-divs{
+        background-color: rgb(238,238,238); 
+        justify-content: flex-start;
+        margin-top: 2%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: flex;
+        width: 80%;
+      }
+      .contacts{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+      .contact-divs h3{
+        color:rgb(125,125,125);
+         padding-top: 6%;
+        width: 50%;
+
+      }
+      .contact-divs span{
+        font-weight: bolder;
+        
+      }
+      .contact-divs i{
+        margin: 6% 4%;
+        width: 10%;
+        padding:  3% 3%;
+        border-radius: 50%;
+        background-color:  rgb(206,18,18);
+        display: flex;
+        flex-direction: row;
+      }
+    
+      .form input , textarea{
+        width: 95%;
+        padding: 2% 2%;
+        margin: 1% 0%;
+        text-decoration: none;
+        border: solid 1px #ccc;
+        
+      }
+     .form{
+        width: 90%;
+        padding: 1.25rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 0 1.875rem #00000014;
+        margin-left: 5%;
+     }
+
+      .contact button{
+        margin-left:3%;
+      }
+      .contact p{
+        color: rgb(127,141,180);
+         display: block;
+         text-align: center;
+         text-decoration: none solid rgb(55, 55, 63) ;
+         padding: 3% 0%;
+     }
+     .contact-divs p{
+        width: 60%;
+        margin-left:18% ;
+        margin-top: -12%;
+        text-align: left;
+      }
+
+    footer{
+        background-image: linear-gradient(#0009, #0009), url(./images/textured-metal-background.jpg);
+        color: #fff;
+        box-shadow: 0px -1px 5px #0007;
+        background-size: contain; 
+  }
+  .footer-section-one{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 4%;
+  }
+
+  .logo-icon{
+    width: 15%;
+    padding: 3% 3% 0% 5%;
+  }
+
+  .logo-icon img{
+    width: 100%;
+  }
+
+  label.logo-footer{
+    font-size: 35px;
+    line-height: 80px;
+    font-weight: bold;
+    width: 50%;
+  }
+
+  .logo-footer::after{
+    content: ".";
+    color:rgb(206,18,18) ;
+  }
+  .footer{
+    padding: 5% ;
+    padding-bottom: 10%;
+  }
+  .footer p ,hr{
+    padding: 0% 5% ;
+  }
+  .footer-social-icons h2{
+    text-align: center;
+    padding-top: 3%;
+    width: 100%;
+  }
+
+  .footer-social-icons p{
+    width: 100%;
+  }
+
+  .footer  hr{
+
+    color: #888888;
+  }
+  .footer  h2{
+    padding: 2% 5% ;
+    width: 100%;
+    font-size: 19px;
+  }
+  .footer-social-icons{
+    
+ }
+ .footer-social-icons i{
+    font-size: 1.3rem;
+ }
+ .footer i{
+ margin:3% 8%;
+ }
+
+ #email2{
+    margin:  2% 5% ;
+    padding: 2% 3% ;
+    width:70%;
+    color:#555555;
+    border-color: #ccc;
+  }
+  #button-footer{
+    padding:  1% 3%;
+    background-color:rgb(206,18,18) ;
+    color: white;
+    border-style: none ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight:400 ;
+  }
+  .footer-section-two ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+footer li {
+    margin: 1% 3%;
+    width: 40%;
+    color: white;
+}
+footer li a , i span {
+  color: white;
+}
+.fa-map-marker-alt , footer .fa-envelope ,footer .fa-phone{ 
+    color:rgb(206,18,18) ;
+}
+ul {
+    list-style-type: none;
+}
+.get{
+    display: flex;
+    flex-direction: column;
+}
