@@ -1,0 +1,243 @@
+:root{
+    font-size: 14px;
+    font-family: Arvo ,sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+.parent{
+    display: grid;
+    grid-template-areas: 
+    "section1 section1 section1 section1"
+    "section1 section1 section1 section1"
+    "section1 section1 section1 section1"
+    "section2 section2 section2 section2"
+    "section2 section2 section2 section2"
+    "section2 section2 section2 section2"
+    "section3 section3 section4 section4"
+    "section3 section3 section4 section4"
+    "section3 section3 section4 section4"
+    "section5 section5 section6 section6"
+    "section5 section5 section6 section6"
+    "section5 section5 section6 section6"
+    "section7 section7 section8 section8"
+    "section7 section7 section8 section8"
+    "section7 section7 section8 section8"
+    "section9 section9 section8 section8"
+    "section9 section9 section8 section8"
+    "section9 section9 section8 section8"
+    "section10 section10 section10 section10"
+    "section11 section11 section11 section11"
+    "section11 section11 section11 section11"
+    ;
+}
+.section1{
+    background-color: rgb(247,248,249);
+    grid-area: section1;
+    padding: 5% 0%;
+}
+.section2{
+    grid-area: section2;
+    display: flex;
+}
+.section3{
+    grid-area: section3;
+    background-color: rgb(240,86,56);
+    color:white;
+}
+
+.section3 img {
+    max-width: 100%;
+    padding: 15% 15% 0% 15%;
+}
+ .section4 img{
+    max-width: 100%;
+    padding: 15% 25% 10% 25%;
+}
+.section4{
+    grid-area: section4;
+    background-color: rgb(247,248,249);
+}
+.section5{
+    grid-area: section5;
+ 
+}
+.section5-text{
+    padding: 10% 30%;
+}
+.section5-pic{
+    margin-right:12rem;
+}
+.section5 img{
+    max-width: 100%;
+}
+.section6{
+    grid-area: section6;
+   padding: 20% 5% 30% 5%;
+}
+.section7{
+    grid-area: section7;
+    background-color: rgb(56,213,244);
+}
+.twitter{
+    background-color: rgb(53,207,237);
+    border-radius: 50%;
+    margin:15% 20%;
+    padding: 10% 15%;
+}
+.twitter p{
+    color:white;
+    
+}
+.twitter img{
+    max-width: 70%;
+    padding-left: 30%;
+    margin: 15% 0% 15% 0%;
+}
+.section8{
+    grid-area: section8;
+    background-color: rgb(143,118,188);
+}
+.section9{
+    grid-area: section9;
+    background-image: url(images/9.png);
+    background-size:50%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: #93b6b7;
+}
+.section10{
+    grid-area: section10;
+}
+.section11{
+    grid-area: section11;
+    background-color: rgb(44,44,44);
+    display: flex;
+}
+.download a{
+    color:rgb(52,185,194);
+}
+.learn-more{
+    color:rgb(170,172,175) ;
+    font-weight: bold;
+}
+.text-center{
+  align-content: center; 
+}
+.section1-text{
+    margin-left: 25%;
+}
+.section2-text{
+    width: 60%;
+    padding: 10% 15%;
+}
+.section2-pic{
+    grid-area: section2-pic;
+    padding-top: 5%;
+    width: 30%;
+}
+.section2-pic img{
+    width: 100%;
+   
+}
+.section2-header{
+    color: rgb(159,163,167);
+    line-height: 26px;
+}
+.arrow-link{
+    padding-left: 45%;
+    text-decoration:none;
+    letter-spacing: 2.4px;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.arrow{
+    text-decoration:none;
+    letter-spacing: 2.4px;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.yellow{
+  color:   #ffc80a;
+}
+.blue{
+    color:   rgb(113,182,190);
+  }
+
+  .blue2{
+    color: rgb(39,200,222);
+  }
+  .white{
+    color:white;
+  }
+  .cd{
+    background-color: rgb(129,102,176);
+    margin: 10% 10%;
+    border-radius: 50%;
+  }
+  .text-block{
+    background-color: rgb(143,118,188);
+    width: 30%;
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  }
+  .section9-header{
+    background-color: rgb(250,104,79);
+    width:20%;
+    border-radius: 10px;
+    padding-left: 2%;
+    margin: 5% 10% 0% 10%;
+    font-size: smaller;
+  }
+  .section10-header{
+    background-color: rgb(123,196,36);
+    width:10%;
+    border-radius: 10px;
+    padding-left: 2%;
+    margin-left: 45% ;
+    margin-top: 5%;
+    font-size: smaller;
+  }
+  .section9 img{
+     max-width: 100%;
+     padding-right: 20%;
+  }
+  .section9-text{
+     padding: 5% 10% 5% 10%;
+  }
+  .section10-text{
+    padding: 2% 10% 2% 10%;
+ }
+  
+  .cd img{
+     max-width: 100%;
+     padding: 5% 15% 0% 15%;
+  }
+  .meet{
+    padding-left: 45%;
+   padding-bottom: 10%;
+  }
+  .sec8{
+    padding: 3% 15%;
+  }
+  .btn-warning{
+    border-radius: 50px;
+    background-color: #ffc80a;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 3.5% 10%;
+    margin: 10% 30% 20% 30%;
+  }
+  .section11-pic{
+    width:50%;
+    padding:0% 5% 0% 5%;
+  }
+  .section11-pic img{
+    max-width:80%;
+  }
+.section11-text{
+    width:50%;
+    padding-top: 10%;
+}
