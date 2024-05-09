@@ -1,0 +1,131 @@
+.navbar-collapse {
+    padding-left: 20%;
+}
+.navbar-brand{
+    margin-left: 80px; 
+}
+.submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 45px;
+    }
+    .dropdown-menu > li:hover > .submenu {
+        display: block;
+    }
+.background-pic{
+  background-image: url('images/hero-bg.jpg');
+  background-size:cover;
+
+}
+
+.sec4{
+    background-image: url('images/counters-bg.jpg'); 
+    max-width: 100%;
+    background-repeat: no-repeat;
+    margin: 5% 0%;
+    background-size:auto;
+}
+.sec6{
+    background-image: url('images/overlay-bg.jpg'); 
+    max-width: 100%;
+    background-repeat: no-repeat;
+    margin: 5% 0% 0% 0%; 
+    background-size:cover;
+}
+.sec62{
+    padding: 10%;
+}
+.card-link {
+    color:black !important;
+}
+.card-link:hover{
+    color:rgb(13,110,253) !important;
+}
+.card-footer img{
+ width: 10%;
+}
+
+.category{
+    padding:  3px 5px;
+    margin: 0% 30%;
+}
+.background-pic p{
+    line-height:10px;
+}
+.bg-{
+    position: relative;
+    z-index: 2;
+    padding: 200px 10% ;
+}
+
+.placeholder {
+    min-height: 3px;
+    margin-bottom: 1em;
+
+}
+.circle {
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 13px auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+}
+.sec-10{
+padding:5% 15% ;
+}
+.circle3 {
+    height: 30px;
+    width:30px;
+    font-size: 1rem;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 0 0 5px #0078ff;
+}
+.circle3:hover {
+    background-color: #0078ff;
+    color: #fff;
+    box-shadow: 0 0 0 3px #cde1f8;
+    transition: all 500ms ease;
+  }
+  .circle:hover {
+    background-color: #0078ff;
+    color: #fff;
+    box-shadow: 0 0 0 5px #cde1f8;
+    transition: all 500ms ease;
+  }
+.circle2 {
+    height: 60px;
+    width: 60px;
+    font-size:2rem;
+    border-radius: 50%;
+    line-height: 1;
+    margin: 13px auto;
+    text-align: center;
+    margin-top: 5%;
+    box-shadow: 0 0 0 10px white;
+}
+.plus-btn{
+    margin-left: 25%;
+}
+.card {overflow: hidden; }
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+.carousel-indicators{
+    position: absolute;
+    top:90%;
+}
+
+
+
+
+@media (min-width: 576px) {  }
+
+@media (min-width: 768px) {  }
+
+@media (min-width: 992px) {  }
+
+@media (min-width: 1200px) { }
