@@ -1,0 +1,372 @@
+header .container h1::after{
+    content:"";
+    animation: header-animation 10s infinite;
+}
+@keyframes header-animation {
+    0%{content: "|";}
+    1%{content: "L|";}
+    2%{content: "La|";}
+    4%{content: "Lar|";}
+    5%{content: "Larr|";}
+    6%{content: "Larry|";}
+    7%{content: "Larry |";}
+    9%{content: "Larry D|";}
+    10%{content: "Larry Da|";}
+    11%{content: "Larry Dan|";}
+    12%{content: "Larry Dani|";}
+    14%{content: "Larry Danie|";}
+    15%{content: "Larry Daniel|";}
+    16%{content: "Larry Daniels|";}
+    18%{content: "Larry Daniels|";}
+    19%{content: "Larry Daniels|";}
+    20%{content: "Larry Daniels|";}
+    21%{content: "Larry Daniels|";}
+    22%{content: "Larry Daniels|";}
+    23%{content: "Larry Daniels|";}
+    24%{content: "Larry Daniels|";}
+    25%{content: "Larry Daniel|";}
+    27%{content: "Larry Danie|";}
+    28%{content: "Larry Dani|";}
+    29%{content: "Larry Dan|";}
+    30%{content: "Larry Da|";}
+    32%{content: "Larry D|";}
+    30%{content: "Larry |";}
+    32%{content: "Larry|";}
+    33%{content: "Larr|";}
+    34%{content: "Lar|";}
+    36%{content: "La|";}
+    37%{content: "L|";}
+    38%{content: "|";}
+    40%{content: "D|";}
+    41%{content: "De|";}
+    42%{content: "Dev|";}
+    43%{content: "Deve|";}
+    45%{content: "Devel|";}
+    46%{content: "Develo|";}
+    47%{content: "Develop|";}
+    48%{content: "Developm|";}
+    50%{content: "Developme|";}
+    51%{content: "Developmen|";}
+    52%{content: "Development|";}
+    53%{content: "Development|";}
+    54%{content: "Development|";}
+    56%{content: "Development|";}
+    57%{content: "Development|";}
+    58%{content: "Development|";}
+    60%{content: "Development|";}
+    61%{content: "Development|";}
+    62%{content: "Developmen|";}
+    63%{content: "Developme|";}
+    64%{content: "Develop|";}
+    65%{content: "Develo|";}
+    67%{content: "Devel|";}
+    68%{content: "Deve|";}
+    69%{content: "Dev|";}
+    70%{content: "De|";}
+    72%{content: "Des|";}
+    73%{content: "Desi|";}
+    74%{content: "Desig|";}
+    76%{content: "Design|";}
+    77%{content: "Designe|";}
+    78%{content: "Designer|";}
+    80%{content: "Designer|";}
+    81%{content: "Designer|";}
+    82%{content: "Designer|";}
+    84%{content: "Designer|";}
+    85%{content: "Designer|";}
+    86%{content: "Designer|";}
+    88%{content: "Designer|";}
+    90%{content: "Designe|";}
+    91%{content: "Design|";}
+    92%{content: "Desig|";}
+    93%{content: "Desi|";}
+    95%{content: "Des|";}
+    97%{content: "De|";}
+    99%{content: "D|";}
+    100%{content: "|";}
+}
+header{
+    background-image: linear-gradient(#00000096 0% 100%),url('../imgs/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+header .container ul li{
+    background-color: rgba(0, 0, 0, 0.476);
+
+}
+.white {
+ color: #fff !important;
+}
+
+
+ .about-info p{
+    font-family: Poppins ,sans-serif !important;
+    letter-spacing: 2px;
+    color: rgb(153,153,153)!important;
+ }
+ .progress .span{
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+ .about{
+    position: relative;
+ }
+  .about .about-img::after{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 130px;
+    left: 0px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.header-section h3 {
+    font-weight: 900;
+    font-size: 40px;
+    margin: 0 41%;
+    position: relative;
+    z-index: 2;
+    display:inline-block;
+  
+}
+
+@media (min-width: 576px) {
+    .header-section h3 {
+    margin: 0 40%;
+}}
+@media (min-width: 768px) {  
+       .header-section h3 {
+    margin: 0% 38%;
+}}
+@media (min-width: 992px) {    
+     .header-section h3 {
+    margin: 0% 41%;
+} }
+/* @media (min-width: 1200px) {   
+    .header-section h3 {
+    margin: 0% 40%;
+} } */
+/* @media (min-width: 1400px) {    
+    .header-section h3 {
+    margin: 0% 0%;
+} } */
+.header-section h3::after { 
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    z-index: -1;
+}
+.services , .clients{
+   background-color: rgb(247,247,247); 
+}
+.services .card-text {
+    color: rgb(153,153,153)!important;
+}
+.services-icon{
+    background-color:rgb(243,243,243);
+}
+.services .card:hover .services-icon{
+    background-color:black; 
+    color: white;
+}
+.services-icon{
+    transition: all 0.5s linear;
+}
+
+
+
+/*----------------works------------------*/
+
+
+#portfolio .item{
+    position: relative;
+    overflow: hidden;
+}
+#portfolio .item .layer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: ease 0.5s;
+    
+    z-index: 2;
+}
+#portfolio .item .layer ul{
+    transition: ease 0.5s;
+    transform: translateY(10px);
+}
+#portfolio .item .layer .layerp{
+    transition: ease 0.5s;
+    transform: translateY(-10px);
+}
+#portfolio .item:hover ul{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    transform: translateY(0);
+}
+#portfolio .item:hover .layerp{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    transform: translateY(0);
+}
+#portfolio .item:hover .layer{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    transform: translateY(0);
+}
+#portfolio .item::after{
+    position: absolute;
+    content: "";
+    width: 95%;
+    height: 95%;
+    background-color: #ffffff;
+    top: 2.5%;
+    left: 2.5%;
+    opacity: 0;
+    transition: 0.3s;
+}
+#portfolio .item:hover.item::after{
+    opacity: 1;
+}
+#portfolio .item img{
+    transition: .3s;
+}
+.layer ul li i{
+  
+    color:white!important;
+}
+
+.layer ul li:hover {
+    background-color: white!important;
+    
+}
+.layer ul li:hover i{
+    
+    color: #000!important;
+}
+
+/*------------------------*/
+.carousel-caption{
+    position: static;
+    color: #0000008c;
+    margin-bottom: 40px;
+}
+.carousel-indicators [data-bs-target]{
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+   background-color:rgba(0, 0, 0, 0.489);
+}
+.carousel-item img{
+   
+    width: 100px;
+}
+
+.social ul li:hover {
+    background-color: white!important;
+    
+}
+.social ul li:hover i{
+    
+    color: #000!important;
+}
+
+.social{
+    background-color: rgba(255, 255, 255, 0.901);
+    position: absolute;
+    width: 95%;
+    height: 75%;
+    top:2.5%;
+    left:2.5%;
+    opacity: 0;
+    transition: 0.5s;
+    transform: rotateY(180deg) scale(0.5, 0.5);
+}
+#team .card:hover .social{
+opacity: 1;
+transform: rotateY(0deg) scale(1, 1);
+}
+.social li{
+   margin-top: 50%;
+}
+
+.contact .card-text {
+    color: rgb(153,153,153)!important;
+}
+.services-icon{
+    background-color:rgb(243,243,243);
+}
+.contact .card:hover .services-icon{
+    background-color:black; 
+    color: white;
+}
+.services-icon{
+    transition: all 0.5s linear;
+}
+.form{
+    background-color: rgb(244,244,244);
+    color: rgb(116, 117, 116);
+    border-width: 0;
+}
+input {
+    border-color: rgb(244,244,244);
+}
+footer p{
+    color:rgb(62,107,130);
+}
+html{
+    scroll-padding-top: 56px;
+}
+ ul .nav-item{
+    display: inline-block;
+}
+
+ .ok::after {
+    content: "";
+    position: absolute;
+    left: 0; 
+    bottom: -1px;  
+    width: 0px;
+    height: 2px;
+    background: #111;
+    transition: ease 0.4s;
+}
+ .active .ok::after{
+    width: 100%;
+}
+input:focus-visible {
+    outline-width: 0;
+}
+textarea:focus-visible {
+    outline-width: 0;
+}
+.contact .btn{
+    background-color: #000!important;
+    color:#ffffff!important;
+ }
+.contact .btn:hover{
+   background-color: #ffffff!important;
+   color:#000!important;
+}
