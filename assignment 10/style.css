@@ -1,0 +1,10 @@
+h1 {
+    font-size: 80px;
+    font-family: Impact;
+}
+p {
+    font-size: 25px;
+}
+.btn:hover{
+    background-color: rgb(17, 26, 75);
+}
