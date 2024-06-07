@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Sign Up</title>
+</head>
+<body >
+
+  <div class="container"data-bs-theme="dark">
+    <div id="forms" class="shadow-lg">
+        <div id="signup-form"  class="form pt-5 my-5 " >
+            <h2 class="text-center py-4 text-primary fs-1">Sign Up</h2>
+            <form class="row g-3 needs-validation px-5 " novalidate>
+                <div class="col-md-12 m-auto">
+                    <div class=" has-validation">  
+                      <input type="text" placeholder=" Enter your name" id="namee" class="  border-white  form-control " required>
+                      <div class="invalid-feedback">
+                        Please choose a username.
+                      </div>
+                    </div>
+                  </div>
+                <div class="col-md-12">
+                    <input placeholder="Enter your Email" type="email" id="email" class=" border-white  form-control"  required>
+                    <div class="invalid-feedback">
+                      Please enter a valid email.
+                    </div>
+                  </div>
+                <div class="col-md-12">
+                  <input placeholder="Enter your password" type="password" class=" border-white  form-control" id="pass" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid password.
+                  </div>
+                </div>
+
+
+                <div class="col-12 d-grid gap-2">
+                  <button class="btn btn-outline-primary sign" onclick="store()" type="submit">Submit</button>
+                  
+                </div>
+              </form>
+            <p class="p-4 text-white text-center ">Already have an account? <a  class="text-decoration-none text-white"href="index.html" id="show-login">Login</a></p>
+        </div>
+    </div>
+</div>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js" ></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Login</title>
+</head>
+<body class="">
+
+  <div class="container " >
+    <div id="forms" class="shadow">
+        <div id="login-form  " class="form pt-3 my-5 " data-bs-theme="dark" >
+            <h2 class="text-center pt-5 text-primary fs-1">Smart Login System</h2>
+
+                <form class="row g-3 needs-validation px-5 text-white" >
+
+                    <div class="col-md-12">
+                        <input placeholder="Enter your Email" type="email" class="border-white form-control" id="email" required>
+                        <div class="invalid-feedback">
+                          Please enter a valid email.
+                        </div>
+                      </div>
+                    <div class="col-md-12">
+                      <input placeholder="Enter your password" type="password" class=" border-white form-control" id="pass" required>
+                      <div class="invalid-feedback">
+                        Please provide a valid password.
+                      </div>
+                    </div>
+
+
+                    <div class="col-12 d-grid gap-2">
+                      <button class="btn btn-outline-primary log" onclick="check() ;" type="submit">Submit</button>
+                      
+                    </div>
+                  </form>
+
+                  
+            <p class="p-5 text-white text-center">Don't have an account? <a class="text-decoration-none text-white" href="signup.html" >Sign up</a></p>
+        </div>
+    </div>
+</div>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js" ></script>
+</body>
+</html>
