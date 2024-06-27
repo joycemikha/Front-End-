@@ -1,0 +1,63 @@
+
+
+.small{
+    font-size: 10px;
+}
+
+.navbar-nav{
+    padding-left: 40%;
+}
+nav li a:hover , .active{
+color:rgb(0,154,216) !important;
+border-radius: 30px!important;
+border: 3px solid rgb(0,154,216)!important;
+}
+.home{
+    background-image: url(../imgs/banner.png);
+    background-size: cover;
+    padding: 70px 0 0 0;
+    min-height: 350px;
+}
+
+.card-header{
+    background-color: rgb(45,48,61)!important;
+}
+.sec{
+    background-color: rgb(34,37,48)!important;
+}
+.card-body{
+    background-color: rgb(50,53,68)!important;
+}
+.seco{
+    background-color: rgb(38,41,54)!important;
+}
+.number{
+    font-size: 70px;
+}
+footer , .contact{
+    background-color: rgb(50,53,68)!important;
+    
+}
+
+.social-links a:hover i{
+    color: white !important;
+    background-color: rgb(0,154,216)  !important;
+}
+
+body {
+    background-color: #2c2c2c;
+    color: #ffffff;
+    padding-top: 50px;
+}
+.contact-section {
+    padding: 30px;
+  
+}
+.con{
+    padding-top:40% ;
+}
+.contact-info {
+    background-color:rgb(30,32,43);
+    margin-bottom: 20%;
+    
+}

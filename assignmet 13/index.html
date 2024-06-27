@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>weather</title>
+</head>
+<body class="bg-dark">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary  p-4 py-5"data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex flex-wrap" href="#">
+        <img src="imgs/logo.png" alt="Logo" width="60" height="35" class="ms-5 d-inline-block align-text-top">        
+        <div class=" mx-2 logo-type">
+          <p class="m-0 fs-6 fw-bolder">Weather</p>
+          <p class="m-0 small ">tagline goes here</p>
+        </div>
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0  pl-5 d-flex justify-content-end">
+          <li class="nav-item ">
+            <a class=" active text-white text-decoration-none py-1 px-4 " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class=" text-white text-decoration-none py-1 px-4 " aria-current="page" href="#">news</a>
+          </li>
+          <li class="nav-item">
+            <a class=" text-white text-decoration-none py-1 px-4 " aria-current="page" href="#">Live cameras</a>
+          </li>
+          <li class="nav-item">
+            <a class=" text-white text-decoration-none py-1 px-4  " aria-current="page" href="#">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="  text-white text-decoration-none py-1 px-4 " aria-current="page" href="contact.html">Contact</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container-fluid home "id="cityForm" >
+    <div class="input-group m-auto  w-75"data-bs-theme="dark" >
+      <input type="text" id="city" class="form-control rounded-5 py-3 position-relative border-0" placeholder="Find your location... ">
+      <button onclick="test()" class="btn btn-primary rounded-5 position-absolute py-2 m-2 end-0 px-5" type="submit" id="b"  >Find</button>
+  </div>
+
+  <div class="card-group m-auto my-5 w-75 text-white " id="weatherResult" data-bs-theme="dark">
+
+
+  </div>
+<footer class=" p-5 d-flex flex-wrap">
+  <div class="mx-5 input-group col-8 w-50  "data-bs-theme="dark">
+    <input  type="text" class="form-control rounded-5 py-3 position-relative border-0" placeholder="Enter your email to subscribe...">
+    <input class="btn btn-primary rounded-5 position-absolute py-2 m-2 end-0 px-5" type="button" value="Subscribe" id="submit" >
+
+  </div>
+    <div class="col-4  col-md-offset-1">
+      <div class="social-links">
+        <a href="#"><i class="fa-brands fa-facebook-f bg-dark rounded-circle p-3"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter bg-dark rounded-circle p-3"></i></a>
+        <a href="#"><i class="fa-brands fa-google-plus bg-dark rounded-circle p-3"></i></a>
+        <a href="#"><i class="fa-brands fa-pinterest bg-dark rounded-circle p-3"></i></a>
+      </div>
+    </div>
+<small class="d-block p-2 mx-5 text-white pt-4 col-12">Copyright 2014 Company name. Designed by Themezy. All rights reserved
+</small>
+</footer>
+</div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js" ></script>
+</body>
+</html>
