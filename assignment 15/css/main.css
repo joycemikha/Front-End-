@@ -1,0 +1,58 @@
+.offcanvas-start{
+width:25%!important;
+}
+.nav-item a:hover{
+    color :rgb(214, 46, 51)!important;
+}
+
+.navbar{
+    background: linear-gradient(to right, rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url('../imgs/events-heavenly-header.jpg') ;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    height: 640px!important;
+    position: relative!important;
+};
+
+#HomeLayer {
+    z-index: 10!important;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.singers{
+
+}
+.singer{
+    background-color: rgba(214, 46, 51, 0.6);
+     margin: 0% 25%;
+     
+}
+.singer-d{
+    background-color: #ccc;
+    margin: 0% 25%;
+    padding: 1%;
+    display: none;
+}
+#event{
+    background: linear-gradient(to right, rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)), url('../imgs/invitation-2508607__340.jpg') ;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    height: 300px!important;
+};
+.contact{
+    margin-top:150px!important;
+}
+.red{
+    color:#dc3545;
+}
+.gray{
+    color:#6c757d;
+}
+.social-list p:hover{
+    background-color: #dc3545!important;
+    color: white!important;
+    cursor: pointer;
+    border-color:#dc3545!important;
+}
