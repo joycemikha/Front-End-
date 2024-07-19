@@ -1,0 +1,38 @@
+.gray{
+    color: rgb(44,62,80);
+}
+.line {
+    height: 4px;
+    width: 80px;
+    background-color: rgb(44,62,80); 
+  }
+.layer{
+    opacity: 0;
+    background-color: #1abc9ce6;
+    cursor: pointer;
+    transition: .6s opacity;
+    width: 97%!important;
+    
+}
+.layer:hover {
+    opacity: 1;
+}
+
+.test {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 100;
+  }
+  
+  .test img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+  
+  

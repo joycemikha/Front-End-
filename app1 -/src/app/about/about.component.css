@@ -1,0 +1,13 @@
+.about{
+    
+    background-color: rgb(26,188,156);
+    height: 90vh;
+}
+.line {
+    height: 4px;
+    width: 80px;
+    background-color: white; 
+  }
+  h1{
+    padding-top: 15%;
+  }
