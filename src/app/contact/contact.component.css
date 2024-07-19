@@ -1,0 +1,15 @@
+.gray{
+    color: rgb(44,62,80);
+}
+.line {
+    height: 4px;
+    width: 80px;
+    background-color: rgb(44,62,80); 
+  }
+  .green{
+    background-color: rgb(26,188,156);
+  }
+  input:focus-visible{
+    box-shadow: none;
+    border-color: rgba(128, 128, 128, 0.229);
+  }
